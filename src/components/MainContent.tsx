@@ -20,15 +20,19 @@ function MainContent() {
             </div>
             <div className='border-red-700 border-2 h-1/6'>Add list</div>
             <div className='border-red-700 border-2 h-1/5'>Graph</div>
-
         </div>
         <div className='col-span-4'>
             <div className='border-red-500 border-2 h-4/6'>
                 <div className='h-8 flex items-center border-red-500 border-2'>Todo</div>
                 <ul>
-                    <li>Text</li>
+                    <li className='h-28 border-red-500 border-2'>
+                        <textarea placeholder='Add Task' className='h-2/3 bg-transparent w-full'></textarea>
+                        <div className='h-1/3 flex justify-between '>
+                            <span className='border-red-500 border-2'>wrhy</span>
+                            <span className='border-red-500 border-2'>yrc</span>
+                        </div>
+                    </li>
                     <li>Map</li>
-
                 </ul>
             </div>
             <div className='border-red-500 border-2 h-2/6'></div>
