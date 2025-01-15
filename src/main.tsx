@@ -7,6 +7,7 @@ import { ThemeProvider } from './components/theme-provider.tsx'
 import Navbar from './components/Navbar.tsx'
 import { Provider } from 'react-redux'
 import { store } from './redux/store.ts'
+import { Toaster } from 'react-hot-toast'
 
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -25,5 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     </ClerkProvider>
     </ThemeProvider>
     </Provider>
+    <Toaster/>
   </React.StrictMode>,
 )
