@@ -165,7 +165,7 @@ function MainContent() {
 
           {/* Completed Tasks Section */}
           <div className={`flex flex-col border-t max-h-72 ${selectedTask ? 'lg:pr-80' : ''}`}>
-            <div className="flex-shrink-0 h-8 flex items-center px-4 font-medium">
+            <div className="flex-shrink-0 h-8 flex items-center px-4 font-medium text-green-600">
               Completed Tasks ({completedTasks.length})
             </div>
             <div className="flex-1 overflow-y-auto min-h-0">
