@@ -25,7 +25,8 @@ const TaskStatsPieChart = ({activeTasks, completedTasks}: {activeTasks: Todo[], 
           fill="#8884d8"
           dataKey="value"
           label
-        >
+        >   
+        {/* @ts-ignore */}
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
           ))}

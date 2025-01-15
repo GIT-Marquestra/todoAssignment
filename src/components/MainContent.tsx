@@ -1,7 +1,7 @@
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { addTask, removeTask, toggleTaskStatus } from '@/redux/slices/todoSlice';
 import { useRef, useState } from 'react';
-import { X, Check, Menu, Clock, FileCheck, Star, FileText, BellIcon, Repeat, Calendar, Plus, Component } from 'lucide-react';
+import { X, Check, Menu, Clock, FileCheck, Star, FileText, BellIcon, Repeat, Calendar, Plus } from 'lucide-react';
 import { useUser } from '@clerk/clerk-react';
 import toast from 'react-hot-toast';
 import TaskStatsPieChart from './PieChart';

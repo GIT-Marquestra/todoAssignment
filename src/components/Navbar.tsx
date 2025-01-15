@@ -1,4 +1,4 @@
-import { Search, Menu, Component } from "lucide-react"; 
+import { Search, Component } from "lucide-react"; 
 import { ModeToggle } from "./mode-toggle";
 import { SignedIn, SignedOut, SignInButton, SignOutButton } from "@clerk/clerk-react";
 
