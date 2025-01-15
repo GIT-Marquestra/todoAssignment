@@ -59,7 +59,7 @@ function MainContent() {
             
             <div className="flex-shrink-0 border-t">
               <div className="p-2 border-b">
-                <button className="w-full py-2 px-4 rounded flex hover:bg-green-200">
+                <button className="w-full py-2 px-4 rounded flex hover:bg-green-200 hover:text-green-800">
                   <span className='mx-2'><Plus/></span>
                   Add New List
                 </button>
