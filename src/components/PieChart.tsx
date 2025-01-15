@@ -15,12 +15,13 @@ const TaskStatsPieChart = ({activeTasks, completedTasks}: {activeTasks: Todo[], 
       ];
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <PieChart width={400} height={400}>
+      <PieChart width={300} height={300}>
         <Pie
           data={data}
           cx="50%"
           cy="50%"
           outerRadius={100}
+          innerRadius={50}
           fill="#8884d8"
           dataKey="value"
           label

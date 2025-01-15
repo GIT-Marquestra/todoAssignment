@@ -65,7 +65,7 @@ function MainContent() {
                 </button>
               </div>
               <div className="p-4">
-                <div className="bg-transparent rounded flex items-center justify-center text-gray-400 h-24">
+                <div className="bg-transparent rounded flex items-center justify-center text-gray-400 mt-8 h-24">
                   <TaskStatsPieChart activeTasks={activeTasks} completedTasks={completedTasks}/>
                 </div>
               </div>
