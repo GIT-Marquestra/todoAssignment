@@ -1,5 +1,3 @@
-import React from "react";
-
 function Sidebar() {
   return (
     <div className="w-1/4 bg-gray-800 p-5">
